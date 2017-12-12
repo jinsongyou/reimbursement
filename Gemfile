@@ -18,16 +18,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-<<<<<<< HEAD
 #add by jsy 2017/12/11
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'sass-rails', '>= 3.2'
 gem 'autoprefixer-rails'
 
-=======
-gem 'devise', '~> 4.3.0'
->>>>>>> 551d291ae8f569f0581d9e493ec400afa153f3ee
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
