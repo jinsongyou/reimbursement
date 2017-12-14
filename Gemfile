@@ -1,5 +1,4 @@
-source 'http://gems.ruby-china.org'
-#source 'https://rubygems.org'
+source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -17,6 +16,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# Use jquery as the JavaScript library
 
 #add by jsy 2017/12/11
 gem 'jquery-rails'
