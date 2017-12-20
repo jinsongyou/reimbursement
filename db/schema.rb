@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171031132814) do
+ActiveRecord::Schema.define(version: 20171218144603) do
+
+  create_table "customers", force: :cascade do |t|
+    t.string   "first_name", null: false
+    t.string   "last_name",  null: false
+    t.string   "email",      null: false
+    t.string   "username",   null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["email"], name: "index_customers_on_email", unique: true
+    t.index ["username"], name: "index_customers_on_username", unique: true
+  end
 
   create_table "productions", force: :cascade do |t|
     t.string   "name",       limit: 60, default: "UNKNOw", null: false
