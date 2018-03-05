@@ -26,7 +26,7 @@ gem 'autoprefixer-rails'
 
 gem 'angularjs-rails'
 
-
+gem "angular-rails-templates"
 
 
 group :development, :test do
